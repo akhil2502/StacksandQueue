@@ -5,7 +5,7 @@ using System.Text;
 namespace StacksandQueue
 {
     class stack
-  {
+    {
         private Node top;
        
         public LinkedListStack()
@@ -37,7 +37,7 @@ namespace StacksandQueue
                 temp = temp.next;
             }
         }
-       
+      
         public void Peek()
         {
             if (top == null)
@@ -58,9 +58,7 @@ namespace StacksandQueue
             Console.WriteLine("{0} is Poped from the Stack", top.data);
             top = top.next;
         }
-        /// <summary>
-        /// It will poped out all the elements from stack untill stack is empty.
-        /// </summary>
+       
         public void ISEmpty()
         {
             if (top == null)
@@ -76,5 +74,6 @@ namespace StacksandQueue
         }
     }
 }
+
 
 
